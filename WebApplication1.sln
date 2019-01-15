@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{EEE2408B-6D04-436E-B0D7-D271CF0FA01D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pctest", "pctest\pctest.csproj", "{B2164F0F-B6C1-408C-833C-6C7D1CB6A387}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EEE2408B-6D04-436E-B0D7-D271CF0FA01D} = {EEE2408B-6D04-436E-B0D7-D271CF0FA01D}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEE2408B-6D04-436E-B0D7-D271CF0FA01D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEE2408B-6D04-436E-B0D7-D271CF0FA01D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEE2408B-6D04-436E-B0D7-D271CF0FA01D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEE2408B-6D04-436E-B0D7-D271CF0FA01D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2164F0F-B6C1-408C-833C-6C7D1CB6A387}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2164F0F-B6C1-408C-833C-6C7D1CB6A387}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2164F0F-B6C1-408C-833C-6C7D1CB6A387}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2164F0F-B6C1-408C-833C-6C7D1CB6A387}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
